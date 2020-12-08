@@ -1,0 +1,68 @@
+*{
+    font-family: 'JetBrains Mono', monospace;
+    color: #e8e8e8;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f05454;
+}
+
+article {
+    flex-direction: column;
+}
+h1 {
+    font-size: 2em;
+}
+
+.section__main {
+    flex-direction: column;
+}
+
+.section__options {
+    margin: 2em 0;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex__centeralign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sketcharea{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    border: 15px solid #222831;
+    box-shadow: 15px 15px 27px -6px rgba(34, 40, 49, 0.3);
+}
+
+.griditem {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 5px;
+    min-height: 5px;
+    background-color: white;
+}
+
+button {
+    color: white;
+    background-color: #4a74ff;
+    padding: 0.5em 3em;
+    border: 0;
+    border-radius: 2em;
+    outline: none;
+}
+
+h2{
+    margin-top: 1em;
+}
+p{
+    display: inline;
+}
